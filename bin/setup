@@ -34,9 +34,13 @@ fi
 echo "== Preparing database =="
 docker-compose-wrapper run app bin/rake db:create db:setup db:seed
 
+echo "== Starting environment =="
+docker-compose-wrapper up -d
+
+
 echo "== Setting up Pow"
 test -h ~/.pow/rekrei && rm ~/.pow/rekrei
-echo "3000" > ~/.pow/rekrei
+echo "3037" > ~/.pow/rekrei
 
 echo "Web: http://rekrei.dev"
 echo "Done."
