@@ -276,7 +276,7 @@ GEM
     puma_worker_killer (0.1.0)
       get_process_mem (~> 0.2)
       puma (>= 2.7, < 4)
-    rack (1.6.10)
+    rack (1.6.12)
     rack-pjax (1.0.0)
       nokogiri (~> 1.5)
       rack (>= 1.1)
