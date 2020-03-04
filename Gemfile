@@ -74,7 +74,7 @@ gem 'mail', '~> 2.6.6.rc1'
 gem 'ng-rails-csrf'
 
 group :production, :staging do
-  gem 'puma', '~> 3.4'
+  gem 'puma', '~> 3.12'
   gem 'puma_worker_killer'
 end
 
